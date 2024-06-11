@@ -1,0 +1,77 @@
+body {
+    background-color: pink;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 600px;
+    margin: auto;
+    width: 90%;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+a {
+    color: rgb(103, 0, 103);
+    font-size: 1.5em;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: block;
+    margin-bottom: 1em;
+    }
+
+a:hover {
+    text-decoration: underline;
+    font-size: 1.6em;
+    color: rgb(176, 0, 176);;
+}
+.resposta a {
+    margin: 1em 1em;
+    background-color: rgb(27, 27, 27);
+    padding: 0.5em 1em;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    transition: padding 0.5s ease;
+}
+
+.resposta-link:hover {
+    padding: 1em 2em;
+}
+
+.container-fotos {
+    margin: 5em auto;
+    display: flex;
+    gap: 3em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.imagem-parte1 {
+    width: 15em;
+    transition: width 0.3s ease;
+}
+
+.imagem-parte1:hover {
+    width: 15.5em;
+    cursor: pointer;
+}
+
+.img-fixa {
+    width: 15em;
+}
+
+.resposta .green {
+    color: green;
+}
+
+.resposta .red {
+    color: red;
+}
+
+.resposta .blue {
+    color: blue;
+}
+
+.resposta .purple {
+    color: purple;
+}
